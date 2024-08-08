@@ -78,4 +78,12 @@ class KursusController extends Controller
         $this->KursusModel->destroy($id);
         return redirect('/kursus')->with('success', 'Data Kursus Berhasil Dihapus');
     }
+
+
+    // Method untuk menampilkan detail kursus
+    public function show($id)
+    {
+        $data['kursus'] = $this->KursusModel->find($id);
+        return view('KursusDetail', $data);
+    }
 }

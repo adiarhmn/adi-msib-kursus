@@ -1,4 +1,4 @@
-# Sistem Informasi Kurus MSIB
+# Sistem Informasi Kurus Online
 ## Dibuat Oleh  : Adi Aulia Rahman
 ## Asal         : Politeknik Negeri Tanah Laut
 
@@ -13,4 +13,7 @@
 - Menghapus Materi-materi di dalam Kurus
 
 
-## Cara Installasi Project Sistem Infomasi Kursus MSIB
+## Cara Installasi Project Sistem Infomasi Kursus Online
+- 1. Clone Project `https://github.com/adiarhmn/adi-msib-kursus.git`
+- 2. Masuk ke dalam Project Kursus
+- 3. Jalankan Perintah ``composer install``

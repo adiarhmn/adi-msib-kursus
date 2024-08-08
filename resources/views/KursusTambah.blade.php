@@ -14,16 +14,16 @@
             @csrf
             <div class="flex flex-col mb-3">
                 <label for="judul_kursus">Judul Kursus</label>
-                <input name="judul_kursus" type="text" placeholder="Judul"
+                <input value="{{ old('judul_kursus') }}" name="judul_kursus" type="text" placeholder="Judul"
                     class="input input-sm input-bordered w-full max-w-sm" />
             </div>
             <div class="flex flex-col mb-3">
                 <label for="deskripsi_kursus">Deskripsi Kursus</label>
-                <textarea name="deskripsi_kursus" class="textarea textarea-bordered max-w-sm" placeholder="Deskripsi"></textarea>
+                <textarea name="deskripsi_kursus" class="textarea textarea-bordered max-w-sm" placeholder="Deskripsi">{{ old('deskripsi_kursus') }}</textarea>
             </div>
             <div class="flex flex-col mb-3">
                 <label for="durasi_kursus">Durasi ( <i>Hari</i> )</label>
-                <input name="durasi_kursus" type="number" min="1" placeholder="Durasi"
+                <input value="{{ old('durasi_kursus') }}" name="durasi_kursus" type="number" min="1" placeholder="Durasi"
                     class="input input-sm input-bordered w-full max-w-sm" />
             </div>
 
