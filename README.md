@@ -18,10 +18,10 @@
 - 2.Masuk ke dalam Project Kursus
 - 3.Jalankan Perintah ``composer install``
 - 4.Rename file `.env.example` jadi `.env`
-- 6.Jalankan Perintah ``php artisan migrate``
-- 7.Jalankan Perintah `php artisan serve`
+- 5.Jalankan Perintah ``php artisan migrate``
+- 6.Jalankan Perintah `php artisan serve`
 
 
 ## Dokumentasi Sistem Informais Kursus Online
-
 ![My Image](public/kursus_page.png)
+![My Image](public/materi_kursus.png)
