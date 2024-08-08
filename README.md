@@ -23,5 +23,7 @@
 
 
 ## Dokumentasi Sistem Informais Kursus Online
+# Halaman Kursus
 ![My Image](public/kursus_page.png)
+# Halaman Materi Dari Kursus Yang Dipilih
 ![My Image](public/materi_kursus.png)
